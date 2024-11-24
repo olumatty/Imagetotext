@@ -102,7 +102,7 @@ const Page = () => {
 
         {/* Upload Image */}
         <div className='flex flex-col rounded h-24 justify-center items-center bg-[#092045] text-white mx-auto mt-6'>
-          <label className='font-bold mt-4 text-xl' htmlFor='imageUrl'>
+          <label className='font-bold mt-2 text-xl' htmlFor='imageUrl'>
             Upload an image from your device
           </label>
           <input
@@ -111,7 +111,7 @@ const Page = () => {
             id='imageUrl'
             placeholder='Upload an image'
             onChange={handleFileUpload}
-            className='mt-8 p-2 rounded text-black  border w-full'
+            className='mt-4 p-2 rounded text-white  border w-full'
           />
         </div>
 
